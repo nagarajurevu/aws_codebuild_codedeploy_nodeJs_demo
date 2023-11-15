@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! from Nagaraju')
 })
 
 app.get('/status', (req, res) => {
