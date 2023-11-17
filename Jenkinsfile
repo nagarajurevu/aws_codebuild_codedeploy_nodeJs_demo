@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ec2Agent' }
+    agent any
     tools {nodejs "Node16" }
     environment {
         NODE_ENV='production'
